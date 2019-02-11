@@ -1,0 +1,210 @@
+saksham@saksham-XPS-15-9560:~/Documents/spr19/cs4641/Project 1 (Supervised Learning) /scripts$ python census_NN_ChangingArchitecture.py 
+/home/saksham/anaconda2/lib/python2.7/site-packages/sklearn/preprocessing/data.py:617: DataConversionWarning: Data with input dtype uint8, int64 were all converted to float64 by StandardScaler.
+  return self.partial_fit(X, y)
+census_NN_ChangingArchitecture.py:41: DataConversionWarning: Data with input dtype uint8, int64 were all converted to float64 by StandardScaler.
+  X_train = scaler.transform(X_train)
+census_NN_ChangingArchitecture.py:42: DataConversionWarning: Data with input dtype uint8, int64 were all converted to float64 by StandardScaler.
+  X_test = scaler.transform(X_test)
+training_set_max_size: 21113 
+
+activation and layer_1_size: relu  size: 10
+learning a neural net with training_set_size=10556
+getting data building net training validating
+train_err: 0.12211064797271694
+test_err: 0.16145430434302133
+---
+NN accuracy: 0.8385456956569787
+-----------------
+activation and layer_1_size: relu  size: 20
+learning a neural net with training_set_size=10556
+getting data building net training validating
+train_err: 0.10941644562334217
+test_err: 0.16918996574207096
+---
+NN accuracy: 0.8308100342579291
+-----------------
+activation and layer_1_size: relu  size: 30
+learning a neural net with training_set_size=10556
+getting data building net training validating
+train_err: 0.09842743463433119
+test_err: 0.17637307989833131
+---
+NN accuracy: 0.8236269201016687
+-----------------
+activation and layer_1_size: relu  size: 40
+learning a neural net with training_set_size=10556
+getting data building net training validating
+train_err: 0.08687002652519894
+test_err: 0.18267211846612885
+---
+NN accuracy: 0.8173278815338711
+-----------------
+activation and layer_1_size: relu  size: 50
+learning a neural net with training_set_size=10556
+getting data building net training validating
+train_err: 0.08772262220538082
+test_err: 0.17515747596419493
+---
+NN accuracy: 0.824842524035805
+-----------------
+activation and layer_1_size: relu  size: 60
+learning a neural net with training_set_size=10556
+getting data building net training validating
+train_err: 0.07351269420234938
+test_err: 0.1889711570339264
+---
+NN accuracy: 0.8110288429660736
+-----------------
+activation and layer_1_size: relu  size: 70
+learning a neural net with training_set_size=10556
+getting data building net training validating
+train_err: 0.06688139446760137
+test_err: 0.18311415626036026
+---
+NN accuracy: 0.8168858437396398
+-----------------
+activation and layer_1_size: relu  size: 80
+learning a neural net with training_set_size=10556
+getting data building net training validating
+train_err: 0.06205001894657067
+test_err: 0.1846612885401702
+---
+NN accuracy: 0.8153387114598298
+-----------------
+plotting results
+plot complete
+activation and layer_1_size: logistic  size: 10
+learning a neural net with training_set_size=10556
+getting data building net training validating
+train_err: 0.13158393330807125
+test_err: 0.15570781301801304
+---
+NN accuracy: 0.8442921869819869
+-----------------
+activation and layer_1_size: logistic  size: 20
+learning a neural net with training_set_size=10556
+getting data building net training validating
+train_err: 0.1132057597574839
+test_err: 0.16565366338821969
+---
+NN accuracy: 0.8343463366117803
+-----------------
+activation and layer_1_size: logistic  size: 30
+learning a neural net with training_set_size=10556
+/home/saksham/anaconda2/lib/python2.7/site-packages/sklearn/neural_network/multilayer_perceptron.py:562: ConvergenceWarning: Stochastic Optimizer: Maximum iterations (500) reached and the optimization hasn't converged yet.
+  % self.max_iter, ConvergenceWarning)
+getting data building net training validating
+train_err: 0.10032209170140205
+test_err: 0.1761520610012156
+---
+NN accuracy: 0.8238479389987844
+-----------------
+activation and layer_1_size: logistic  size: 40
+learning a neural net with training_set_size=10556
+getting data building net training validating
+train_err: 0.08895414929897688
+test_err: 0.17438390982428997
+---
+NN accuracy: 0.82561609017571
+-----------------
+activation and layer_1_size: logistic  size: 50
+learning a neural net with training_set_size=10556
+getting data building net training validating
+train_err: 0.0786282682834407
+test_err: 0.17537849486131063
+---
+NN accuracy: 0.8246215051386894
+-----------------
+activation and layer_1_size: logistic  size: 60
+learning a neural net with training_set_size=10556
+getting data building net training validating
+train_err: 0.07294429708222812
+test_err: 0.17604155155265774
+---
+NN accuracy: 0.8239584484473422
+-----------------
+activation and layer_1_size: logistic  size: 70
+learning a neural net with training_set_size=10556
+getting data building net training validating
+train_err: 0.0744600227358848
+test_err: 0.18399823184882308
+---
+NN accuracy: 0.816001768151177
+-----------------
+activation and layer_1_size: logistic  size: 80
+learning a neural net with training_set_size=10556
+getting data building net training validating
+train_err: 0.06830238726790451
+test_err: 0.18753453420267432
+---
+NN accuracy: 0.8124654657973257
+-----------------
+plotting results
+plot complete
+activation and layer_1_size: tanh  size: 10
+learning a neural net with training_set_size=10556
+getting data building net training validating
+train_err: 0.1251420992800303
+test_err: 0.16090175710023208
+---
+NN accuracy: 0.839098242899768
+-----------------
+activation and layer_1_size: tanh  size: 20
+learning a neural net with training_set_size=10556
+getting data building net training validating
+train_err: 0.09785903751420993
+test_err: 0.18156702398055033
+---
+NN accuracy: 0.8184329760194496
+-----------------
+activation and layer_1_size: tanh  size: 30
+learning a neural net with training_set_size=10556
+getting data building net training validating
+train_err: 0.07881773399014778
+test_err: 0.18311415626036026
+---
+NN accuracy: 0.8168858437396398
+-----------------
+activation and layer_1_size: tanh  size: 40
+learning a neural net with training_set_size=10556
+getting data building net training validating
+train_err: 0.07152330428192497
+test_err: 0.18731351530555862
+---
+NN accuracy: 0.8126864846944414
+-----------------
+activation and layer_1_size: tanh  size: 50
+learning a neural net with training_set_size=10556
+getting data building net training validating
+train_err: 0.051250473664266764
+test_err: 0.19438612001326114
+---
+NN accuracy: 0.8056138799867388
+-----------------
+activation and layer_1_size: tanh  size: 60
+learning a neural net with training_set_size=10556
+getting data building net training validating
+train_err: 0.05172413793103448
+test_err: 0.19637529008730245
+---
+NN accuracy: 0.8036247099126975
+-----------------
+activation and layer_1_size: tanh  size: 70
+learning a neural net with training_set_size=10556
+getting data building net training validating
+train_err: 0.045850701023114816
+test_err: 0.19272847828489337
+---
+NN accuracy: 0.8072715217151066
+-----------------
+activation and layer_1_size: tanh  size: 80
+learning a neural net with training_set_size=10556
+getting data building net training validating
+train_err: 0.038177339901477834
+test_err: 0.19482815780749255
+---
+NN accuracy: 0.8051718421925075
+-----------------
+plotting results
+plot complete
+
